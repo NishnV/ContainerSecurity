@@ -1,0 +1,56 @@
+[
+    {
+        "name": "coreutils",
+        "version": "8.32-4.1ubuntu1.2",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2016-2781",
+        "severity": "Low",
+        "score": 2.1
+    },
+    {
+        "name": "libc-bin",
+        "version": "2.35-0ubuntu3.6",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2016-20013",
+        "severity": "Negligible",
+        "score": 5.0
+    },
+    {
+        "name": "libc6",
+        "version": "2.35-0ubuntu3.6",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2016-20013",
+        "severity": "Negligible",
+        "score": 5.0
+    },
+    {
+        "name": "liblzma5",
+        "version": "5.2.5-2ubuntu1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2020-22916",
+        "severity": "Medium",
+        "score": 5.5
+    },
+    {
+        "name": "libpcre3",
+        "version": "2:8.39-13ubuntu0.22.04.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2017-11164",
+        "severity": "Negligible",
+        "score": 7.8
+    },
+    {
+        "name": "locales",
+        "version": "2.35-0ubuntu3.7",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2016-20013",
+        "severity": "Negligible",
+        "score": 5.0
+    }
+]

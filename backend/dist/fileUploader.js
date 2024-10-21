@@ -5,6 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.upload = void 0;
 const multer_1 = __importDefault(require("multer"));
+// Set up storage configuration
 const storage = multer_1.default.diskStorage({
     destination: (req, file, cb) => {
         cb(null, 'uploads/');
@@ -13,4 +14,8 @@ const storage = multer_1.default.diskStorage({
         cb(null, Date.now() + "_" + file.originalname);
     },
 });
-exports.upload = (0, multer_1.default)({ storage: storage });
+// Configure Multer to accept specific fields
+exports.upload = (0, multer_1.default)({ storage }).fields([
+    { name: 'Dockerfile', maxCount: 1 },
+    { name: 'package.json', maxCount: 1 }
+]);

@@ -1,0 +1,362 @@
+[
+    {
+        "name": "coreutils",
+        "version": "8.32-4.1ubuntu1.2",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2016-2781",
+        "severity": "Low",
+        "score": 6.5
+    },
+    {
+        "name": "dirmngr",
+        "version": "2.2.27-3ubuntu2.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2022-3219",
+        "severity": "Low",
+        "score": 3.3
+    },
+    {
+        "name": "gcc-12-base",
+        "version": "12.3.0-1ubuntu1~22.04",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2023-4039",
+        "severity": "Medium",
+        "score": 4.8
+    },
+    {
+        "name": "gnupg-l10n",
+        "version": "2.2.27-3ubuntu2.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2022-3219",
+        "severity": "Low",
+        "score": 3.3
+    },
+    {
+        "name": "gnupg-utils",
+        "version": "2.2.27-3ubuntu2.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2022-3219",
+        "severity": "Low",
+        "score": 3.3
+    },
+    {
+        "name": "gpg",
+        "version": "2.2.27-3ubuntu2.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2022-3219",
+        "severity": "Low",
+        "score": 3.3
+    },
+    {
+        "name": "gpg-agent",
+        "version": "2.2.27-3ubuntu2.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2022-3219",
+        "severity": "Low",
+        "score": 3.3
+    },
+    {
+        "name": "gpg-wks-client",
+        "version": "2.2.27-3ubuntu2.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2022-3219",
+        "severity": "Low",
+        "score": 3.3
+    },
+    {
+        "name": "gpg-wks-server",
+        "version": "2.2.27-3ubuntu2.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2022-3219",
+        "severity": "Low",
+        "score": 3.3
+    },
+    {
+        "name": "gpgconf",
+        "version": "2.2.27-3ubuntu2.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2022-3219",
+        "severity": "Low",
+        "score": 3.3
+    },
+    {
+        "name": "gpgsm",
+        "version": "2.2.27-3ubuntu2.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2022-3219",
+        "severity": "Low",
+        "score": 3.3
+    },
+    {
+        "name": "gpgv",
+        "version": "2.2.27-3ubuntu2.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2022-3219",
+        "severity": "Low",
+        "score": 3.3
+    },
+    {
+        "name": "libc-bin",
+        "version": "2.35-0ubuntu3.6",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2016-20013",
+        "severity": "Negligible",
+        "score": 7.5
+    },
+    {
+        "name": "libc6",
+        "version": "2.35-0ubuntu3.6",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2016-20013",
+        "severity": "Negligible",
+        "score": 7.5
+    },
+    {
+        "name": "libgcc-s1",
+        "version": "12.3.0-1ubuntu1~22.04",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2023-4039",
+        "severity": "Medium",
+        "score": 4.8
+    },
+    {
+        "name": "libgcrypt20",
+        "version": "1.9.4-3ubuntu3",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2024-2236",
+        "severity": "Medium",
+        "score": 0.0
+    },
+    {
+        "name": "libgssapi-krb5-2",
+        "version": "1.19.2-2ubuntu0.3",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2024-26462",
+        "severity": "Medium",
+        "score": 0.0
+    },
+    {
+        "name": "libk5crypto3",
+        "version": "1.19.2-2ubuntu0.3",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2024-26462",
+        "severity": "Medium",
+        "score": 0.0
+    },
+    {
+        "name": "libkrb5-3",
+        "version": "1.19.2-2ubuntu0.3",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2024-26462",
+        "severity": "Medium",
+        "score": 0.0
+    },
+    {
+        "name": "libkrb5support0",
+        "version": "1.19.2-2ubuntu0.3",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2024-26462",
+        "severity": "Medium",
+        "score": 0.0
+    },
+    {
+        "name": "liblzma5",
+        "version": "5.2.5-2ubuntu1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2020-22916",
+        "severity": "Medium",
+        "score": 5.5
+    },
+    {
+        "name": "libncurses6",
+        "version": "6.3-2ubuntu0.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2023-50495",
+        "severity": "Low",
+        "score": 6.5
+    },
+    {
+        "name": "libncursesw6",
+        "version": "6.3-2ubuntu0.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2023-50495",
+        "severity": "Low",
+        "score": 6.5
+    },
+    {
+        "name": "libpcre2-8-0",
+        "version": "10.39-3ubuntu0.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2022-41409",
+        "severity": "Low",
+        "score": 7.5
+    },
+    {
+        "name": "libpcre3",
+        "version": "2:8.39-13ubuntu0.22.04.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2017-11164",
+        "severity": "Negligible",
+        "score": 7.5
+    },
+    {
+        "name": "libpng16-16",
+        "version": "1.6.37-3build5",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2022-3857",
+        "severity": "Low",
+        "score": 5.5
+    },
+    {
+        "name": "libssl3",
+        "version": "3.0.2-0ubuntu1.15",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2024-4741",
+        "severity": "Low",
+        "score": 0.0
+    },
+    {
+        "name": "libstdc++6",
+        "version": "12.3.0-1ubuntu1~22.04",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2023-4039",
+        "severity": "Medium",
+        "score": 4.8
+    },
+    {
+        "name": "libsystemd0",
+        "version": "249.11-0ubuntu3.12",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2023-7008",
+        "severity": "Low",
+        "score": 5.9
+    },
+    {
+        "name": "libtasn1-6",
+        "version": "4.18.0-4build1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2021-46848",
+        "severity": "Low",
+        "score": 9.1
+    },
+    {
+        "name": "libtinfo6",
+        "version": "6.3-2ubuntu0.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2023-50495",
+        "severity": "Low",
+        "score": 6.5
+    },
+    {
+        "name": "libudev1",
+        "version": "249.11-0ubuntu3.12",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2023-7008",
+        "severity": "Low",
+        "score": 5.9
+    },
+    {
+        "name": "libzstd1",
+        "version": "1.4.8+dfsg-3build1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2022-4899",
+        "severity": "Low",
+        "score": 7.5
+    },
+    {
+        "name": "locales",
+        "version": "2.35-0ubuntu3.7",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2016-20013",
+        "severity": "Negligible",
+        "score": 7.5
+    },
+    {
+        "name": "login",
+        "version": "1:4.8.1-2ubuntu2.2",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2023-29383",
+        "severity": "Low",
+        "score": 3.3
+    },
+    {
+        "name": "ncurses-base",
+        "version": "6.3-2ubuntu0.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2023-50495",
+        "severity": "Low",
+        "score": 6.5
+    },
+    {
+        "name": "ncurses-bin",
+        "version": "6.3-2ubuntu0.1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2023-50495",
+        "severity": "Low",
+        "score": 6.5
+    },
+    {
+        "name": "openssl",
+        "version": "3.0.2-0ubuntu1.15",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2024-4741",
+        "severity": "Low",
+        "score": 0.0
+    },
+    {
+        "name": "passwd",
+        "version": "1:4.8.1-2ubuntu2.2",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2023-29383",
+        "severity": "Low",
+        "score": 3.3
+    },
+    {
+        "name": "wget",
+        "version": "1.21.2-2ubuntu1",
+        "fixed_in": "Not Fixed",
+        "type": "deb",
+        "vulnerability": "CVE-2021-31879",
+        "severity": "Medium",
+        "score": 6.1
+    }
+]

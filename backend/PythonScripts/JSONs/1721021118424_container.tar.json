@@ -1,0 +1,98 @@
+[
+    {
+        "name": "busybox",
+        "version": "1.36.1-r15",
+        "fixed_in": "1.36.1-r19",
+        "type": "apk",
+        "vulnerability": "CVE-2023-42365",
+        "severity": "Medium"
+    },
+    {
+        "name": "busybox-binsh",
+        "version": "1.36.1-r15",
+        "fixed_in": "1.36.1-r19",
+        "type": "apk",
+        "vulnerability": "CVE-2023-42365",
+        "severity": "Medium"
+    },
+    {
+        "name": "curl",
+        "version": "8.5.0-r0",
+        "fixed_in": "Not Fixed",
+        "type": "apk",
+        "vulnerability": "CVE-2024-2466",
+        "severity": "Unknown"
+    },
+    {
+        "name": "golang.org/x/crypto",
+        "version": "v0.14.0",
+        "fixed_in": "0.17.0",
+        "type": "go-module",
+        "vulnerability": "GHSA-45x7-px36-x8w8",
+        "severity": "Medium"
+    },
+    {
+        "name": "golang.org/x/net",
+        "version": "v0.17.0",
+        "fixed_in": "0.23.0",
+        "type": "go-module",
+        "vulnerability": "GHSA-4v7x-pqxf-cx7m",
+        "severity": "Medium"
+    },
+    {
+        "name": "google.golang.org/protobuf",
+        "version": "v1.31.0",
+        "fixed_in": "1.33.0",
+        "type": "go-module",
+        "vulnerability": "GHSA-8r3f-844c-mc37",
+        "severity": "Medium"
+    },
+    {
+        "name": "gopkg.in/square/go-jose.v2",
+        "version": "v2.5.1",
+        "fixed_in": "Not Fixed",
+        "type": "go-module",
+        "vulnerability": "GHSA-c5q2-7r4c-mv6g",
+        "severity": "Medium"
+    },
+    {
+        "name": "libcrypto3",
+        "version": "3.1.4-r5",
+        "fixed_in": "3.1.5-r0",
+        "type": "apk",
+        "vulnerability": "CVE-2024-4603",
+        "severity": "Unknown"
+    },
+    {
+        "name": "libssl3",
+        "version": "3.1.4-r5",
+        "fixed_in": "3.1.5-r0",
+        "type": "apk",
+        "vulnerability": "CVE-2024-4603",
+        "severity": "Unknown"
+    },
+    {
+        "name": "nghttp2-libs",
+        "version": "1.58.0-r0",
+        "fixed_in": "Not Fixed",
+        "type": "apk",
+        "vulnerability": "CVE-2024-28182",
+        "severity": "Medium"
+    },
+    {
+        "name": "ssl_client",
+        "version": "1.36.1-r15",
+        "fixed_in": "1.36.1-r19",
+        "type": "apk",
+        "vulnerability": "CVE-2023-42365",
+        "severity": "Medium"
+    },
+    {
+        "name": "stdlib",
+        "version": "go1.21.8",
+        "fixed_in": "Not Fixed",
+        "type": "go-module",
+        "vulnerability": "CVE-2024-24790",
+        "severity": "Unknown"
+    }
+]

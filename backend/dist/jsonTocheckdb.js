@@ -35,7 +35,7 @@ class jsonTocheckdb {
                 }
             });
             output.on('error', (err) => {
-                console.error('Failed to start subprocess:', err);
+                console.error('failed no subprocess', err);
                 reject(err);
             });
         });

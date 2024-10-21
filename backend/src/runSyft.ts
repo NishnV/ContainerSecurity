@@ -1,7 +1,6 @@
 import { spawn } from "child_process";
 import fs from "fs";
 import path from "path";
-import { jsonTocheckdb } from "./jsonTocheckdb";
 
 export class runSyft {
 
@@ -44,28 +43,10 @@ export class runSyft {
             pythonOut.stdin.end();
 
             let errorOutput = '';
-            let resultObj: any[] = [];
 
             pythonOut.stdout.on('data', (data) => {
-                const dataStr = data.toString();
-                const splitStr = dataStr.split(/\s+/);
-
-                let combinedStr = splitStr.join(' ');
-                combinedStr = combinedStr.replace(/['"\[\],]/g, '');
-
-                const cleanedStrArr = combinedStr.split(/\s+/);
-
-                for (let i = 0; i < cleanedStrArr.length; i += 3) {
-                    const name = cleanedStrArr[i];
-                    const version = cleanedStrArr[i + 1];
-                    const type = cleanedStrArr[i + 2];
-
-                    if (name === "NAME" && version === "VERSION" && type === "TYPE") {
-                        continue;
-                    }
-
-                    resultObj.push({ name, version, type });
-                }
+                console.log('python syft output:', data.toString());
+                // should be empty illa naa error
             });
 
             pythonOut.stderr.on('data', (data) => {
@@ -75,20 +56,16 @@ export class runSyft {
             pythonOut.on('close', async (code) => {
                 if (code === 0) {
                     try {
-                        const startTime = Date.now();
-                        await this.createJSON(this.fileName, resultObj);
-
                         const jsonName = `${this.fileName}.json`;
-                        await new jsonTocheckdb(jsonName).pushToCheckDB();
+                        const jsonFilePath = path.join(this.jsonPath, jsonName);
 
-                        const jsonPath = path.join(this.jsonPath, jsonName);
-                        fs.readFile(jsonPath, 'utf8', (err, data) => {
+                        fs.readFile(jsonFilePath, 'utf8', (err, data) => {
                             if (err) {
-                                console.error('JSON file read aagalaaaa', err);
+                                console.error('Error reading JSON file:', err);
                                 reject(err);
                             } else {
-                                console.log('File read done');
-                                resolve(data);
+                                console.log('File read successfully');
+                                resolve(JSON.parse(data));
                             }
                         });
 

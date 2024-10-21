@@ -16,7 +16,6 @@ exports.runSyft = void 0;
 const child_process_1 = require("child_process");
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
-const jsonTocheckdb_1 = require("./jsonTocheckdb");
 class runSyft {
     constructor(fileName) {
         this.fileName = fileName;
@@ -49,22 +48,9 @@ class runSyft {
                 pythonOut.stdin.write(JSON.stringify(params));
                 pythonOut.stdin.end();
                 let errorOutput = '';
-                let resultObj = [];
                 pythonOut.stdout.on('data', (data) => {
-                    const dataStr = data.toString();
-                    const splitStr = dataStr.split(/\s+/);
-                    let combinedStr = splitStr.join(' ');
-                    combinedStr = combinedStr.replace(/['"\[\],]/g, '');
-                    const cleanedStrArr = combinedStr.split(/\s+/);
-                    for (let i = 0; i < cleanedStrArr.length; i += 3) {
-                        const name = cleanedStrArr[i];
-                        const version = cleanedStrArr[i + 1];
-                        const type = cleanedStrArr[i + 2];
-                        if (name === "NAME" && version === "VERSION" && type === "TYPE") {
-                            continue;
-                        }
-                        resultObj.push({ name, version, type });
-                    }
+                    console.log('python syft output:', data.toString());
+                    // should be empty illa naa error
                 });
                 pythonOut.stderr.on('data', (data) => {
                     errorOutput += data.toString();
@@ -72,22 +58,16 @@ class runSyft {
                 pythonOut.on('close', (code) => __awaiter(this, void 0, void 0, function* () {
                     if (code === 0) {
                         try {
-                            const startTime = Date.now();
-                            yield this.createJSON(this.fileName, resultObj);
                             const jsonName = `${this.fileName}.json`;
-                            console.log(`Starting pushToCheckDB for ${jsonName} at ${Date.now()}`);
-                            yield new jsonTocheckdb_1.jsonTocheckdb(jsonName).pushToCheckDB();
-                            console.log(`Completed pushToCheckDB for ${jsonName} at ${Date.now()}`);
-                            const jsonPath = path_1.default.join(this.jsonPath, jsonName);
-                            fs_1.default.readFile(jsonPath, 'utf8', (err, data) => {
+                            const jsonFilePath = path_1.default.join(this.jsonPath, jsonName);
+                            fs_1.default.readFile(jsonFilePath, 'utf8', (err, data) => {
                                 if (err) {
                                     console.error('Error reading JSON file:', err);
                                     reject(err);
                                 }
                                 else {
                                     console.log('File read successfully');
-                                    console.log(`Total time taken: ${Date.now() - startTime}ms`);
-                                    resolve(data);
+                                    resolve(JSON.parse(data));
                                 }
                             });
                         }
