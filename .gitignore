@@ -1,0 +1,3 @@
+backend/uploads/*.iso
+backend/*.tar
+backend/PythonScripts/Others/*.csv

@@ -1,35 +1,72 @@
 import psycopg2
- 
+import requests
+import time
+from bs4 import BeautifulSoup
+
 conn = psycopg2.connect(
     database="ContainerSecurity",
     user='nishantv',
     password='nishant123',
-
 )
-
-cve_data = {
-    "CVE-2023-0286": 9.8,
-    "CVE-2022-22965": 9.8,
-    "CVE-2021-44228": 10.0,
-    "CVE-2020-1472": 10.0,
-    "CVE-2019-0708": 9.8,
-    "CVE-2018-11776": 8.1,
-    "CVE-2017-0144": 8.5,
-    "CVE-2016-0800": 7.4,
-    "CVE-2015-0204": 7.8,
-    "CVE-2014-6271": 10.0
-}
 
 cur = conn.cursor()
 
-for key, val in cve_data.items():
-    query = '''
-    SELECT * from cvss_score where cve_name = "${key}"
-        '''
-    
-    cur.execute(query)
-    for x in cur.fetchall():
-        print(x)
+cur.execute(
+    """
+    SELECT name from cve_table;
+    """
+)
+
+result = cur.fetchall()
+cve_names = [row[0] for row in result]
 
 
 
+for i, cve in enumerate(cve_names):
+    url = f"https://nvd.nist.gov/vuln/detail/{cve}"
+
+    print(url)
+
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.content, 'html.parser')
+
+        score = None
+        
+        try:
+            cvss2_element = soup.find('a', {"id": "Cvss2CalculatorAnchor"})
+            cvss2 = cvss2_element.text.strip()
+
+            if cvss2 != 'N/A':
+                score = cvss2
+        
+        try:
+            cvss3_element = soup.find('a', {"id": "Cvss3NistCalculatorAnchorNA"})
+            cvss3 = cvss3_element.text.strip()
+
+            if cvss3 != 'N/A':
+                score = cvss3
+
+        
+        try:
+            cvss4_element = soup.find('a', {"id": "Cvss4NistCalculatorAnchorNA"})
+            cvss4 = cvss4_element.text.strip()
+
+            if cvss4 != 'N/A':
+                score = cvss4
+
+        if score:
+            try:
+                score = float(score[:3])
+                print(cve, score)
+                cur.execute(
+                    '''
+                    INSERT INTO cvss_score_new (name, score) VALUES (%s, %s)
+                    '''
+                    , (cve, score)
+                )
+
+conn.commit()
+cur.close()
+conn.close()

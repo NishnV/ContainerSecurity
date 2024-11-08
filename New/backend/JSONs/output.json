@@ -1,11 +1,2954 @@
 [
   {
-    "name": "libjbig0",
-    "version": "2.1-3.1+b2",
+    "name": "apt",
+    "version": "2.6.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2011-3374",
+    "severity": "Negligible",
+    "score": 3.7
+  },
+  {
+    "name": "binutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-13716",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "binutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-18483",
+    "severity": "Negligible",
+    "score": 7.8
+  },
+  {
+    "name": "binutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20673",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "binutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20712",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "binutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-9996",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "binutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2021-32256",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "binutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-1972",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "binutils-aarch64-linux-gnu",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-13716",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "binutils-aarch64-linux-gnu",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-18483",
+    "severity": "Negligible",
+    "score": 7.8
+  },
+  {
+    "name": "binutils-aarch64-linux-gnu",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20673",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "binutils-aarch64-linux-gnu",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20712",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "binutils-aarch64-linux-gnu",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-9996",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "binutils-aarch64-linux-gnu",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2021-32256",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "binutils-aarch64-linux-gnu",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-1972",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "binutils-common",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-13716",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "binutils-common",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-18483",
+    "severity": "Negligible",
+    "score": 7.8
+  },
+  {
+    "name": "binutils-common",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20673",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "binutils-common",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20712",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "binutils-common",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-9996",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "binutils-common",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2021-32256",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "binutils-common",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-1972",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "bsdutils",
+    "version": "1:2.38.1-5+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-0563",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "coreutils",
+    "version": "9.1-1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2016-2781",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "coreutils",
+    "version": "9.1-1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-18018",
+    "severity": "Negligible",
+    "score": 4.7
+  },
+  {
+    "name": "cpp-12",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "cpp-12",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "dirmngr",
+    "version": "2.2.40-1.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-3219",
+    "severity": "Negligible",
+    "score": 3.3
+  },
+  {
+    "name": "g++-12",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "g++-12",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "gcc-12",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "gcc-12",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "gcc-12-base",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "gcc-12-base",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "gnupg",
+    "version": "2.2.40-1.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-3219",
+    "severity": "Negligible",
+    "score": 3.3
+  },
+  {
+    "name": "gnupg-l10n",
+    "version": "2.2.40-1.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-3219",
+    "severity": "Negligible",
+    "score": 3.3
+  },
+  {
+    "name": "gnupg-utils",
+    "version": "2.2.40-1.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-3219",
+    "severity": "Negligible",
+    "score": 3.3
+  },
+  {
+    "name": "gpg",
+    "version": "2.2.40-1.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-3219",
+    "severity": "Negligible",
+    "score": 3.3
+  },
+  {
+    "name": "gpg-agent",
+    "version": "2.2.40-1.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-3219",
+    "severity": "Negligible",
+    "score": 3.3
+  },
+  {
+    "name": "gpg-wks-client",
+    "version": "2.2.40-1.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-3219",
+    "severity": "Negligible",
+    "score": 3.3
+  },
+  {
+    "name": "gpg-wks-server",
+    "version": "2.2.40-1.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-3219",
+    "severity": "Negligible",
+    "score": 3.3
+  },
+  {
+    "name": "gpgconf",
+    "version": "2.2.40-1.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-3219",
+    "severity": "Negligible",
+    "score": 3.3
+  },
+  {
+    "name": "gpgsm",
+    "version": "2.2.40-1.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-3219",
+    "severity": "Negligible",
+    "score": 3.3
+  },
+  {
+    "name": "gpgv",
+    "version": "2.2.40-1.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-3219",
+    "severity": "Negligible",
+    "score": 3.3
+  },
+  {
+    "name": "libapt-pkg6.0",
+    "version": "2.6.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2011-3374",
+    "severity": "Negligible",
+    "score": 3.7
+  },
+  {
+    "name": "libasan8",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "libasan8",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libatomic1",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "libatomic1",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libbinutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-13716",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libbinutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-18483",
+    "severity": "Negligible",
+    "score": 7.8
+  },
+  {
+    "name": "libbinutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20673",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libbinutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20712",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libbinutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-9996",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libbinutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2021-32256",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libbinutils",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-1972",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libblkid-dev",
+    "version": "2.38.1-5+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-0563",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libblkid1",
+    "version": "2.38.1-5+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-0563",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libcairo-gobject2",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2017-7475",
+    "severity": "Low",
+    "score": 5.5
+  },
+  {
+    "name": "libcairo-gobject2",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2018-18064",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libcairo-gobject2",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2019-6461",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libcairo-gobject2",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2019-6462",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libcairo-script-interpreter2",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2017-7475",
+    "severity": "Low",
+    "score": 5.5
+  },
+  {
+    "name": "libcairo-script-interpreter2",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2018-18064",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libcairo-script-interpreter2",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2019-6461",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libcairo-script-interpreter2",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2019-6462",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libcairo2",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2017-7475",
+    "severity": "Low",
+    "score": 5.5
+  },
+  {
+    "name": "libcairo2",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2018-18064",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libcairo2",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2019-6461",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libcairo2",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2019-6462",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libcairo2-dev",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2017-7475",
+    "severity": "Low",
+    "score": 5.5
+  },
+  {
+    "name": "libcairo2-dev",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2018-18064",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libcairo2-dev",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2019-6461",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libcairo2-dev",
+    "version": "1.16.0-7",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2019-6462",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libcc1-0",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "libcc1-0",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libctf-nobfd0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-13716",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libctf-nobfd0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-18483",
+    "severity": "Negligible",
+    "score": 7.8
+  },
+  {
+    "name": "libctf-nobfd0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20673",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libctf-nobfd0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20712",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libctf-nobfd0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-9996",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libctf-nobfd0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2021-32256",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libctf-nobfd0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-1972",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libctf0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-13716",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libctf0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-18483",
+    "severity": "Negligible",
+    "score": 7.8
+  },
+  {
+    "name": "libctf0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20673",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libctf0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20712",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libctf0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-9996",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libctf0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2021-32256",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libctf0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-1972",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libdav1d6",
+    "version": "1.0.0-2+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-32570",
+    "severity": "Medium",
+    "score": 5.9
+  },
+  {
+    "name": "libde265-0",
+    "version": "1.0.11-1+deb12u2",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-51792",
+    "severity": "Unknown",
+    "score": 0
+  },
+  {
+    "name": "libdjvulibre-dev",
+    "version": "3.5.28-2+b1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2021-46310",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libdjvulibre-dev",
+    "version": "3.5.28-2+b1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2021-46312",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libdjvulibre-text",
+    "version": "3.5.28-2",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2021-46310",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libdjvulibre-text",
+    "version": "3.5.28-2",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2021-46312",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libdjvulibre21",
+    "version": "3.5.28-2+b1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2021-46310",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libdjvulibre21",
+    "version": "3.5.28-2+b1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2021-46312",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libelf1",
+    "version": "0.188-2.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2024-25260",
+    "severity": "Negligible",
+    "score": 0
+  },
+  {
+    "name": "libgcc-12-dev",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "libgcc-12-dev",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libgcc-s1",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "libgcc-s1",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libgcrypt20",
+    "version": "1.10.1-3",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-2236",
+    "severity": "Medium",
+    "score": 0
+  },
+  {
+    "name": "libgcrypt20",
+    "version": "1.10.1-3",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-6829",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "libgomp1",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "libgomp1",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libgprofng0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-13716",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libgprofng0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-18483",
+    "severity": "Negligible",
+    "score": 7.8
+  },
+  {
+    "name": "libgprofng0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20673",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libgprofng0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20712",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libgprofng0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-9996",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libgprofng0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2021-32256",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libgprofng0",
+    "version": "2.40-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-1972",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libharfbuzz0b",
+    "version": "6.0.0+dfsg-3",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-25193",
+    "severity": "High",
+    "score": 7.5
+  },
+  {
+    "name": "libheif1",
+    "version": "1.15.1-1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-29659",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libheif1",
+    "version": "1.15.1-1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-49460",
+    "severity": "High",
+    "score": 8.8
+  },
+  {
+    "name": "libheif1",
+    "version": "1.15.1-1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-49462",
+    "severity": "High",
+    "score": 8.8
+  },
+  {
+    "name": "libheif1",
+    "version": "1.15.1-1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-49463",
+    "severity": "High",
+    "score": 8.8
+  },
+  {
+    "name": "libheif1",
+    "version": "1.15.1-1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-49464",
+    "severity": "High",
+    "score": 8.8
+  },
+  {
+    "name": "libheif1",
+    "version": "1.15.1-1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2024-25269",
+    "severity": "Negligible",
+    "score": 0
+  },
+  {
+    "name": "libhwasan0",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "libhwasan0",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libitm1",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "libitm1",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libjansson4",
+    "version": "2.14-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2020-36325",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "libjbig-dev",
+    "version": "2.1-6.1",
     "fixed_in": "Not Fixed",
     "type": "deb",
     "vulnerability": "CVE-2017-9937",
     "severity": "Negligible",
     "score": 6.5
+  },
+  {
+    "name": "libjbig0",
+    "version": "2.1-6.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-9937",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libldap-2.5-0",
+    "version": "2.5.13+dfsg-5",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-2953",
+    "severity": "High",
+    "score": 7.5
+  },
+  {
+    "name": "libldap-2.5-0",
+    "version": "2.5.13+dfsg-5",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2015-3276",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "libldap-2.5-0",
+    "version": "2.5.13+dfsg-5",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-14159",
+    "severity": "Negligible",
+    "score": 4.7
+  },
+  {
+    "name": "libldap-2.5-0",
+    "version": "2.5.13+dfsg-5",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-17740",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "libldap-2.5-0",
+    "version": "2.5.13+dfsg-5",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2020-15719",
+    "severity": "Negligible",
+    "score": 4.2
+  },
+  {
+    "name": "liblsan0",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "liblsan0",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libmariadb-dev",
+    "version": "1:10.11.6-0+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-21096",
+    "severity": "Medium",
+    "score": 4.9
+  },
+  {
+    "name": "libmariadb-dev-compat",
+    "version": "1:10.11.6-0+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-21096",
+    "severity": "Medium",
+    "score": 4.9
+  },
+  {
+    "name": "libmariadb3",
+    "version": "1:10.11.6-0+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-21096",
+    "severity": "Medium",
+    "score": 4.9
+  },
+  {
+    "name": "libmount-dev",
+    "version": "2.38.1-5+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-0563",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libmount1",
+    "version": "2.38.1-5+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-0563",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libncurses-dev",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-45918",
+    "severity": "Unknown",
+    "score": 0
+  },
+  {
+    "name": "libncurses-dev",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-50495",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libncurses5-dev",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-45918",
+    "severity": "Unknown",
+    "score": 0
+  },
+  {
+    "name": "libncurses5-dev",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-50495",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libncurses6",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-45918",
+    "severity": "Unknown",
+    "score": 0
+  },
+  {
+    "name": "libncurses6",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-50495",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libncursesw5-dev",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-45918",
+    "severity": "Unknown",
+    "score": 0
+  },
+  {
+    "name": "libncursesw5-dev",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-50495",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libncursesw6",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-45918",
+    "severity": "Unknown",
+    "score": 0
+  },
+  {
+    "name": "libncursesw6",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-50495",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libnghttp2-14",
+    "version": "1.52.0-1+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2024-28182",
+    "severity": "Medium",
+    "score": 0
+  },
+  {
+    "name": "libopenexr-3-1-30",
+    "version": "3.1.5-5",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-5841",
+    "severity": "Critical",
+    "score": 9.1
+  },
+  {
+    "name": "libopenexr-3-1-30",
+    "version": "3.1.5-5",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-31047",
+    "severity": "Unknown",
+    "score": 0
+  },
+  {
+    "name": "libopenexr-3-1-30",
+    "version": "3.1.5-5",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-14988",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libopenexr-dev",
+    "version": "3.1.5-5",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-5841",
+    "severity": "Critical",
+    "score": 9.1
+  },
+  {
+    "name": "libopenexr-dev",
+    "version": "3.1.5-5",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-31047",
+    "severity": "Unknown",
+    "score": 0
+  },
+  {
+    "name": "libopenexr-dev",
+    "version": "3.1.5-5",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-14988",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2019-6988",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2021-3575",
+    "severity": "High",
+    "score": 7.8
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-10505",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-10506",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9113",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9114",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9115",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9116",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9117",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9580",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9581",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-17479",
+    "severity": "Negligible",
+    "score": 9.8
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-16375",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-16376",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libopenjp2-7",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20846",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2019-6988",
+    "severity": "Low",
+    "score": 6.5
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2021-3575",
+    "severity": "High",
+    "score": 7.8
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-10505",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-10506",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9113",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9114",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9115",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9116",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9117",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9580",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2016-9581",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-17479",
+    "severity": "Negligible",
+    "score": 9.8
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-16375",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-16376",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libopenjp2-7-dev",
+    "version": "2.5.0-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-20846",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libpam-modules",
+    "version": "1.5.2-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-22365",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libpam-modules-bin",
+    "version": "1.5.2-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-22365",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libpam-runtime",
+    "version": "1.5.2-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-22365",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libpam0g",
+    "version": "1.5.2-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-22365",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libperl5.36",
+    "version": "5.36.0-7+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-31484",
+    "severity": "High",
+    "score": 8.1
+  },
+  {
+    "name": "libperl5.36",
+    "version": "5.36.0-7+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2011-4116",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "libperl5.36",
+    "version": "5.36.0-7+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-31486",
+    "severity": "Negligible",
+    "score": 8.1
+  },
+  {
+    "name": "libpixman-1-0",
+    "version": "0.42.2-1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-37769",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libpixman-1-dev",
+    "version": "0.42.2-1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-37769",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libpng-dev",
+    "version": "1.6.39-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2021-4214",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libpng16-16",
+    "version": "1.6.39-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2021-4214",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libproc2-0",
+    "version": "2:4.0.2-3",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4016",
+    "severity": "Low",
+    "score": 3.3
+  },
+  {
+    "name": "libsmartcols1",
+    "version": "2.38.1-5+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-0563",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libsqlite3-0",
+    "version": "3.40.1-2",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-7104",
+    "severity": "High",
+    "score": 7.3
+  },
+  {
+    "name": "libsqlite3-0",
+    "version": "3.40.1-2",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-0232",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libsqlite3-0",
+    "version": "3.40.1-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2021-45346",
+    "severity": "Negligible",
+    "score": 4.3
+  },
+  {
+    "name": "libsqlite3-dev",
+    "version": "3.40.1-2",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-7104",
+    "severity": "High",
+    "score": 7.3
+  },
+  {
+    "name": "libsqlite3-dev",
+    "version": "3.40.1-2",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-0232",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libsqlite3-dev",
+    "version": "3.40.1-2",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2021-45346",
+    "severity": "Negligible",
+    "score": 4.3
+  },
+  {
+    "name": "libstdc++-12-dev",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "libstdc++-12-dev",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libstdc++6",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "libstdc++6",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-25433",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-26965",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-26966",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-2908",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-3618",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-52355",
+    "severity": "High",
+    "score": 7.5
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-52356",
+    "severity": "High",
+    "score": 7.5
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-6277",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-16232",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-17973",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-5563",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-9117",
+    "severity": "Negligible",
+    "score": 9.8
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-10126",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-1210",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-1916",
+    "severity": "Negligible",
+    "score": 6.1
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-3164",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libtiff-dev",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-6228",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-25433",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-26965",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-26966",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-2908",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-3618",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-52355",
+    "severity": "High",
+    "score": 7.5
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-52356",
+    "severity": "High",
+    "score": 7.5
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-6277",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-16232",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-17973",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-5563",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-9117",
+    "severity": "Negligible",
+    "score": 9.8
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-10126",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-1210",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-1916",
+    "severity": "Negligible",
+    "score": 6.1
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-3164",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libtiff6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-6228",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-25433",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-26965",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-26966",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-2908",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-3618",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-52355",
+    "severity": "High",
+    "score": 7.5
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-52356",
+    "severity": "High",
+    "score": 7.5
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-6277",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-16232",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-17973",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-5563",
+    "severity": "Negligible",
+    "score": 8.8
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2017-9117",
+    "severity": "Negligible",
+    "score": 9.8
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-10126",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-1210",
+    "severity": "Negligible",
+    "score": 6.5
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-1916",
+    "severity": "Negligible",
+    "score": 6.1
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-3164",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libtiffxx6",
+    "version": "4.5.0-6+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-6228",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libtinfo6",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-45918",
+    "severity": "Unknown",
+    "score": 0
+  },
+  {
+    "name": "libtinfo6",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-50495",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libtsan2",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "libtsan2",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libubsan1",
+    "version": "12.2.0-14",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4039",
+    "severity": "Medium",
+    "score": 4.8
+  },
+  {
+    "name": "libubsan1",
+    "version": "12.2.0-14",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-27943",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libuuid1",
+    "version": "2.38.1-5+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-0563",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "libwmf-0.2-7",
+    "version": "0.2.12-5.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2007-3476",
+    "severity": "Low",
+    "score": 4.3
+  },
+  {
+    "name": "libwmf-0.2-7",
+    "version": "0.2.12-5.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2007-3477",
+    "severity": "Low",
+    "score": 5
+  },
+  {
+    "name": "libwmf-0.2-7",
+    "version": "0.2.12-5.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2007-3996",
+    "severity": "Medium",
+    "score": 6.8
+  },
+  {
+    "name": "libwmf-0.2-7",
+    "version": "0.2.12-5.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2009-3546",
+    "severity": "Medium",
+    "score": 9.3
+  },
+  {
+    "name": "libwmf-dev",
+    "version": "0.2.12-5.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2007-3476",
+    "severity": "Low",
+    "score": 4.3
+  },
+  {
+    "name": "libwmf-dev",
+    "version": "0.2.12-5.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2007-3477",
+    "severity": "Low",
+    "score": 5
+  },
+  {
+    "name": "libwmf-dev",
+    "version": "0.2.12-5.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2007-3996",
+    "severity": "Medium",
+    "score": 6.8
+  },
+  {
+    "name": "libwmf-dev",
+    "version": "0.2.12-5.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2009-3546",
+    "severity": "Medium",
+    "score": 9.3
+  },
+  {
+    "name": "libwmflite-0.2-7",
+    "version": "0.2.12-5.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2007-3476",
+    "severity": "Low",
+    "score": 4.3
+  },
+  {
+    "name": "libwmflite-0.2-7",
+    "version": "0.2.12-5.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2007-3477",
+    "severity": "Low",
+    "score": 5
+  },
+  {
+    "name": "libwmflite-0.2-7",
+    "version": "0.2.12-5.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2007-3996",
+    "severity": "Medium",
+    "score": 6.8
+  },
+  {
+    "name": "libwmflite-0.2-7",
+    "version": "0.2.12-5.1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2009-3546",
+    "severity": "Medium",
+    "score": 9.3
+  },
+  {
+    "name": "libxml2",
+    "version": "2.9.14+dfsg-1.3~deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-39615",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libxml2",
+    "version": "2.9.14+dfsg-1.3~deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-45322",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libxml2",
+    "version": "2.9.14+dfsg-1.3~deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-25062",
+    "severity": "High",
+    "score": 7.5
+  },
+  {
+    "name": "libxml2",
+    "version": "2.9.14+dfsg-1.3~deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2024-34459",
+    "severity": "Negligible",
+    "score": 0
+  },
+  {
+    "name": "libxml2-dev",
+    "version": "2.9.14+dfsg-1.3~deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-39615",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libxml2-dev",
+    "version": "2.9.14+dfsg-1.3~deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-45322",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "libxml2-dev",
+    "version": "2.9.14+dfsg-1.3~deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-25062",
+    "severity": "High",
+    "score": 7.5
+  },
+  {
+    "name": "libxml2-dev",
+    "version": "2.9.14+dfsg-1.3~deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2024-34459",
+    "severity": "Negligible",
+    "score": 0
+  },
+  {
+    "name": "libxslt1-dev",
+    "version": "1.1.35-1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2015-9019",
+    "severity": "Negligible",
+    "score": 5.3
+  },
+  {
+    "name": "libxslt1.1",
+    "version": "1.1.35-1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2015-9019",
+    "severity": "Negligible",
+    "score": 5.3
+  },
+  {
+    "name": "login",
+    "version": "1:4.13+dfsg1-1+b1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-29383",
+    "severity": "Low",
+    "score": 3.3
+  },
+  {
+    "name": "login",
+    "version": "1:4.13+dfsg1-1+b1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4641",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "login",
+    "version": "1:4.13+dfsg1-1+b1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2007-5686",
+    "severity": "Negligible",
+    "score": 4.9
+  },
+  {
+    "name": "login",
+    "version": "1:4.13+dfsg1-1+b1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2019-19882",
+    "severity": "Negligible",
+    "score": 7.8
+  },
+  {
+    "name": "m4",
+    "version": "1.4.19-3",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2008-1687",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "m4",
+    "version": "1.4.19-3",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2008-1688",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "mariadb-common",
+    "version": "1:10.11.6-0+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2024-21096",
+    "severity": "Medium",
+    "score": 4.9
+  },
+  {
+    "name": "mount",
+    "version": "2.38.1-5+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-0563",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "ncurses-base",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-45918",
+    "severity": "Unknown",
+    "score": 0
+  },
+  {
+    "name": "ncurses-base",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-50495",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "ncurses-bin",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-45918",
+    "severity": "Unknown",
+    "score": 0
+  },
+  {
+    "name": "ncurses-bin",
+    "version": "6.4-4",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-50495",
+    "severity": "Medium",
+    "score": 6.5
+  },
+  {
+    "name": "passwd",
+    "version": "1:4.13+dfsg1-1+b1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-29383",
+    "severity": "Low",
+    "score": 3.3
+  },
+  {
+    "name": "passwd",
+    "version": "1:4.13+dfsg1-1+b1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4641",
+    "severity": "Medium",
+    "score": 5.5
+  },
+  {
+    "name": "passwd",
+    "version": "1:4.13+dfsg1-1+b1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2007-5686",
+    "severity": "Negligible",
+    "score": 4.9
+  },
+  {
+    "name": "passwd",
+    "version": "1:4.13+dfsg1-1+b1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2019-19882",
+    "severity": "Negligible",
+    "score": 7.8
+  },
+  {
+    "name": "patch",
+    "version": "2.7.6-7",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2010-4651",
+    "severity": "Negligible",
+    "score": 5.8
+  },
+  {
+    "name": "patch",
+    "version": "2.7.6-7",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-6951",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "patch",
+    "version": "2.7.6-7",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2018-6952",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "patch",
+    "version": "2.7.6-7",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2021-45261",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "perl",
+    "version": "5.36.0-7+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-31484",
+    "severity": "High",
+    "score": 8.1
+  },
+  {
+    "name": "perl",
+    "version": "5.36.0-7+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2011-4116",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "perl",
+    "version": "5.36.0-7+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-31486",
+    "severity": "Negligible",
+    "score": 8.1
+  },
+  {
+    "name": "perl-base",
+    "version": "5.36.0-7+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-31484",
+    "severity": "High",
+    "score": 8.1
+  },
+  {
+    "name": "perl-base",
+    "version": "5.36.0-7+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2011-4116",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "perl-base",
+    "version": "5.36.0-7+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-31486",
+    "severity": "Negligible",
+    "score": 8.1
+  },
+  {
+    "name": "perl-modules-5.36",
+    "version": "5.36.0-7+deb12u1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-31484",
+    "severity": "High",
+    "score": 8.1
+  },
+  {
+    "name": "perl-modules-5.36",
+    "version": "5.36.0-7+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2011-4116",
+    "severity": "Negligible",
+    "score": 7.5
+  },
+  {
+    "name": "perl-modules-5.36",
+    "version": "5.36.0-7+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2023-31486",
+    "severity": "Negligible",
+    "score": 8.1
+  },
+  {
+    "name": "procps",
+    "version": "2:4.0.2-3",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-4016",
+    "severity": "Low",
+    "score": 3.3
+  },
+  {
+    "name": "tar",
+    "version": "1.34+dfsg-1.2+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2005-2541",
+    "severity": "Negligible",
+    "score": 10
+  },
+  {
+    "name": "unzip",
+    "version": "6.0-28",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2021-4217",
+    "severity": "Negligible",
+    "score": 3.3
+  },
+  {
+    "name": "util-linux",
+    "version": "2.38.1-5+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-0563",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "util-linux-extra",
+    "version": "2.38.1-5+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-0563",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "uuid-dev",
+    "version": "2.38.1-5+deb12u1",
+    "fixed_in": "Not Fixed",
+    "type": "deb",
+    "vulnerability": "CVE-2022-0563",
+    "severity": "Negligible",
+    "score": 5.5
+  },
+  {
+    "name": "wget",
+    "version": "1.21.3-1+b1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2021-31879",
+    "severity": "Medium",
+    "score": 6.1
+  },
+  {
+    "name": "zlib1g",
+    "version": "1:1.2.13.dfsg-1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-45853",
+    "severity": "Critical",
+    "score": 9.8
+  },
+  {
+    "name": "zlib1g-dev",
+    "version": "1:1.2.13.dfsg-1",
+    "fixed_in": "(won't fix)",
+    "type": "deb",
+    "vulnerability": "CVE-2023-45853",
+    "severity": "Critical",
+    "score": 9.8
   }
 ]

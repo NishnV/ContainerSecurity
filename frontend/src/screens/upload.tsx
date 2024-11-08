@@ -11,13 +11,11 @@ interface UploadStatusType {
     [key: string]: string;
 }
 
-type BaseImage = "Node.js" | "Java" | "Go" | ".NET" | "Rust" | "Swift" | "PHP" | "Ruby" | "Other";
+type BaseImage = "Node.js" | "Go" | "Rust" | "Swift" | "PHP" | "Ruby" | "Other";
 
 const dependencyFiles: Record<BaseImage, string> = {
     "Node.js": "package.json",
-    "Java": "pom.xml",
     "Go": "go.mod",
-    ".NET": ".csproj",
     "Rust": "Cargo.toml",
     "Swift": "Package.swift",
     "PHP": "composer.json",
@@ -96,18 +94,16 @@ export const Upload: React.FC = () => {
     };
 
     return (
-        <div className="bg-gray-900 min-h-screen flex flex-col items-center justify-center p-4 text-white">
+        <div className="bg-gradient-to-r from-gray-900 to-gray-700 min-h-screen flex flex-col items-center justify-center p-4 text-white">
             <div className="mb-8">
-                <h1 className="text-4xl font-bold mb-4 text-center text-blue-400">Upload Your Dockerfile and Dependency File</h1>
+                <h1 className="text-4xl font-bold mb-4 text-center">Upload Your Dockerfile and Dependency File</h1>
                 <p className="text-center text-lg mb-6">Secure your container by uploading the necessary files to analyze and detect vulnerabilities.</p>
             </div>
             <div className="w-full max-w-lg p-6 rounded-lg shadow-lg bg-gray-800 space-y-6">
                 <select onChange={handleBaseImageChange} className="w-full p-3 rounded-lg text-black">
                     <option value="">Select Base Image</option>
                     <option value="Node.js">Node.js</option>
-                    <option value="Java">Java</option>
                     <option value="Go">Go</option>
-                    <option value=".NET">.NET (C#)</option>
                     <option value="Rust">Rust</option>
                     <option value="Swift">Swift</option>
                     <option value="PHP">PHP</option>

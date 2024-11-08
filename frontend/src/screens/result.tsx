@@ -31,6 +31,8 @@ export const Result: React.FC = () => {
             let total_cvss = 0;
             result.forEach((item) => total_cvss += parseInt(item.score));
             setContainerScore(Math.round(total_cvss / result.length));
+        } else {
+            setContainerScore(null); // Reset score if no results
         }
     }, [result]);
 
@@ -71,26 +73,32 @@ export const Result: React.FC = () => {
     };
 
     return (
-        <div className="bg-gray-900 min-h-screen flex flex-col items-center justify-center p-4 text-white">
+        <div className="bg-gradient-to-r from-gray-900 to-gray-700 min-h-screen flex flex-col items-center justify-center p-4 text-white">
             <div className="w-full max-w-4xl">
                 <h1 className="text-4xl font-bold mb-8 text-center text-blue-400">Scan Results</h1>
-                <div className="overflow-x-auto w-full">
-                    <table className="table-auto w-full text-left">
-                        <thead>
-                            <tr className="text-blue-400">
-                                <th className="border px-4 py-2">Name</th>
-                                <th className="border px-4 py-2">Version</th>
-                                <th className="border px-4 py-2">Fixed In</th>
-                                <th className="border px-4 py-2">Type</th>
-                                <th className="border px-4 py-2">Vulnerability</th>
-                                <th className="border px-4 py-2">CVSS Score</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {result ? DisplayData(result) : <tr><td colSpan={6} className="text-center py-4">No data available</td></tr>}
-                        </tbody>
-                    </table>
-                </div>
+                {result && result.length > 0 ? (
+                    <div className="overflow-x-auto w-full">
+                        <table className="table-auto w-full text-left bg-gray-800">
+                            <thead>
+                                <tr className="text-blue-400">
+                                    <th className="border px-4 py-2">Name</th>
+                                    <th className="border px-4 py-2">Version</th>
+                                    <th className="border px-4 py-2">Fixed In</th>
+                                    <th className="border px-4 py-2">Type</th>
+                                    <th className="border px-4 py-2">Vulnerability</th>
+                                    <th className="border px-4 py-2">CVSS Score</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {DisplayData(result)}
+                            </tbody>
+                        </table>
+                    </div>
+                ) : (
+                    <div className="text-center text-red-500 py-4">
+                        No vulnerabilities found.
+                    </div>
+                )}
                 {containerScore !== null && (
                     <div className="mt-8 flex items-center justify-center">
                         <motion.div

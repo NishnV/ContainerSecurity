@@ -51,8 +51,8 @@ const createDefaultDependencyFile = async (baseImage: string, uploadPath: string
       content: "module my-module\n\ngo 1.16\n",
     },
     ".NET": {
-      name: ".csproj",
-      content: "<Project Sdk=\"Microsoft.NET.Sdk\">\n<OutputType>Exe</OutputType>\n</Project>",
+      name: "yes.csproj",
+      content: "<Project Sdk=\"Microsoft.NET.Sdk\">\n  <PropertyGroup>\n    <OutputType>Exe</OutputType>\n    <TargetFramework>net7.0</TargetFramework>\n  </PropertyGroup>\n</Project>",
     },
     "Rust": {
       name: "Cargo.toml",
@@ -87,7 +87,7 @@ const handleFileRenaming = async (baseImage: string, files: { [fieldname: string
     "Node.js": "package.json",
     "Java": "pom.xml",
     "Go": "go.mod",
-    ".NET": ".csproj",
+    ".NET": "yes.csproj",
     "Rust": "Cargo.toml",
     "Swift": "Package.swift",
     "PHP": "composer.json",
